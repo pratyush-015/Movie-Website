@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "main.css">
+</head>
+<body>
+    <div class = "wrapper">
+        <div class = "logo">
+            <div class = "container">
+                <p>Let's<span>Movie.</span></p>
+            </div>
+        </div>
+        <nav class="navBar">
+            <div class="nav-items">
+                <ul class="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">Series</a></li>
+                    <li><a href="#">Book Movie Tickets</a></li>
+                    <li><a href="#">My Movies</a></li>
+                </ul>
+                <ul class="user">
+                    <i class="fa-solid fa-bookmark"></i>
+                    <li><i class="fa-solid fa-bell"></i></li>
+                    <li><i class="fa-solid fa-user"></i></li>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </ul>
+                
+            </div>
+        </nav>
+        <div class = "search-container">
+            <div class = "search-element">
+                <h3>Search:</h3>
+                <input type = "text" class = "form-control" placeholder="Enter Movie Name..." id = "movie-search-box" onkeyup="findMovies()" onclick = "findMovies()">
+                <div class = "search-list" id = "search-list">
+                    <!-- Title INFO -->
+                    <!-- <div class = "search-list-item">
+                        <div class = "search-item-thumbnail">
+                            <img src = "avengers.jpg">
+                        </div>
+                        <div class = "search-item-info">
+                            <h3>Avengers: Endgame</h3>
+                            <p>2019</p>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+
+        <div class = "container">
+            <div class = "result-container">
+                <div class = "result-grid" id = "result-grid">
+                    <!-- Movie INFO -->
+                    <!-- <div class = "movie-poster">
+                        <img src = "avengers.jpg" alt = "movie poster">
+                    </div>
+                    <div class = "movie-info">
+                        <h3 class = "movie-title">Avengers: Endgame</h3>
+                        <ul class = "movie-misc-info">
+                            <li class = "year">Year: 2019</li>
+                            <li class = "rated">Ratings: PG-13</li>
+                            <li class = "released">Released: 26 April 2017</li>
+                        </ul>
+                        <p class = "genre"><b>Genre:</b> Action, Adventure, Drama</p>
+                        <p class = "writer"><b>Writer:</b> JChristopher Markus, Stephen McFeely, Stan Lee</p>
+                        <p class = "actors"><b>Actors: </b>Robert Downey Jr., Chris Evans, Mark Ruffalo</p>
+                        <p class = "plot"><b>Plot:</b> After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.</p>
+                        <p class = "language"><b>Language:</b> English</p>
+                        <p class = "awards"><b><i class = "fas fa-award"></i></b> Nominated for 1 Oscar. 70 wins & 133 nominations total</p>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
