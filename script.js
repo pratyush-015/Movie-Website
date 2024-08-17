@@ -1,5 +1,5 @@
 // Titles: https://omdbapi.com/?s=thor&page=1&apikey=ff9c0f09e
-// details: http://www.omdbapi.com/?i=tt3896198&apikey=f9c0f09e
+// details: https://www.omdbapi.com/?i=tt3896198&apikey=f9c0f09e
 
 const movieSearchBox = document.getElementById('movie-search-box');
 const searchList = document.getElementById('search-list');
